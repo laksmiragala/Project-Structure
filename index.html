@@ -1,0 +1,26 @@
+<form id="productForm" enctype="multipart/form-data">
+  <label>Product Name:</label>
+  <input type="text" name="name" required><br>
+
+  <label>Price:</label>
+  <input type="number" name="price" required><br>
+
+  <label>Category:</label>
+  <input type="text" name="category" required><br>
+
+  <label>Additional Details:</label>
+  <textarea name="details"></textarea><br>
+
+  <label>Product Image:</label>
+  <input type="file" name="image" accept="image/*" required><br>
+
+  <button type="button" id="generateBtn">Generate Description</button><br>
+
+  <label>Description:</label>
+  <textarea name="description"></textarea><br>
+
+  <label>Short Description:</label>
+  <textarea name="short_description"></textarea><br>
+
+  <button type="submit">Save Product</button>
+</form>
